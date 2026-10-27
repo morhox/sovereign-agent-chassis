@@ -22,3 +22,7 @@ The **Sovereign Agent Chassis** introduces a closed-loop infrastructure layer th
    ```bash
    git clone [https://github.com/morhox/sovereign-agent-chassis.git](https://github.com/morhox/sovereign-agent-chassis.git)
    cd sovereign-agent-chassis
+2. Run the gateway server:
+```bash
+uvicorn gateway.server:app --reload --port 8004
+
